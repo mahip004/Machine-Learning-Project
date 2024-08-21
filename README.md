@@ -22,6 +22,7 @@ Install the required dependencies:
 bash
 Copy code
 pip install -r requirements.txt
+
 Ensure you have the required dataset (text_classifier_dataset.csv) in the project directory.
 
 ## Usage
