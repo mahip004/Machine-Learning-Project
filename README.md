@@ -33,18 +33,18 @@ Copy code
 python text_classifier.py
 ## The project involves the following steps:
 
-Data Loading and Preprocessing: The data is loaded and any null values are filled.  
-Vectorization: Text data is transformed into numerical features using CountVectorizer and TfidfVectorizer.  
-Model Training: Models are trained using RandomForestClassifier and SVC.  
-Hyperparameter Tuning: Grid Search Cross-Validation is used for tuning model hyperparameters.  
-Evaluation: Models are evaluated using accuracy scores and confusion matrices.  
+**Data Loading and Preprocessing:** The data is loaded and any null values are filled.  
+**Vectorization:** Text data is transformed into numerical features using CountVectorizer and TfidfVectorizer.  
+**Model Training:** Models are trained using RandomForestClassifier and SVC.  
+**Hyperparameter Tuning:** Grid Search Cross-Validation is used for tuning model hyperparameters.  
+**Evaluation:** Models are evaluated using accuracy scores and confusion matrices.  
 ## Results
-Random Forest Classifier: Achieved an accuracy of X% with the best parameters obtained via Grid Search.   
-Support Vector Machine (SVM): Achieved an accuracy of Y% with the best parameters obtained via Grid Search.  
+**Random Forest Classifier:** Achieved an accuracy of X% with the best parameters obtained via Grid Search.   
+**Support Vector Machine (SVM):** Achieved an accuracy of Y% with the best parameters obtained via Grid Search.  
 Confusion matrices for both models are plotted to visualize the performance.  
 
 ## Future Work
-Additional Vectorization Techniques: Experiment with advanced NLP techniques for better feature extraction.
-Deployment: Package the model into a web service for real-time text classification.
-Further Optimization: Explore additional algorithms and hyperparameter settings to improve model performance.
+**Additional Vectorization Techniques:** Experiment with advanced NLP techniques for better feature extraction.
+**Deployment:** Package the model into a web service for real-time text classification.
+**Further Optimization:** Explore additional algorithms and hyperparameter settings to improve model performance.
 On small scale we can classify different sentences among these five fields but on large scae it can be deployed for classifying emails, whatsapp chat and e-books which can save a lot of time and it will be highly beneficial to classify chats and mails according to priorities
